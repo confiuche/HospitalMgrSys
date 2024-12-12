@@ -13,10 +13,10 @@ class patientInfo extends personalInfo{
         super(id, name, age, gender)
     }
     displayPersonalInfo(): string {
-        return `${super.displayPersonalInfo()}, PhoneNo: ${this.phone}`
+        return `${super.displayPersonalInfo()} PhoneNo: ${this.phone}`
     }
 }
 
-const patient = new patientInfo(1, "Confidence DUC", 16, "Male", 8064366528)
+const patient = new patientInfo(1, "Confidence DUC", 12/12/2000, 16, "Male", 8064366528)
 console.log(patient.displayPersonalInfo());
 
