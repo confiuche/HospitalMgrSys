@@ -1,0 +1,14 @@
+{
+  "name": "hospital-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start":"node dist/doctor",
+    "dev":"tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
